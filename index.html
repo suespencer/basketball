@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://db.onlinewebfonts.com/c/ab0e848e0e83a85a5af69f5acf1ebe73?family=Cursed+Timer+ULiL"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sub-container">
+         <h3 class="roboto-medium">HOME</h3>
+            <p class="scoreBox calcFont" id="homeScore">0</p>
+            <div>
+          <button class="add-btn calcFont" onclick="addOnePointH()">+1</button>
+          <button class="add-btn calcFont" onclick="addTwoPointsH()">+2</button>
+          <button class="add-btn calcFont" onclick="addThreePointsH()">+3</button>
+        </div>
+      </div>
+      <div id="reset">
+        <button id="reset-btn" class="roboto-medium" onclick="resetScores()">RESET</button>
+      </div>
+      <div>
+        <h3 class="roboto-medium">GUEST</h3>
+        <p class="scoreBox calcFont" id="guestScore">0</p>
+        <div>
+          <button class="add-btn calcFont" onclick="addOnePointG()">+1</button>
+          <button class="add-btn calcFont" onclick="addTwoPointsG()">+2</button>
+          <button class="add-btn calcFont" onclick="addThreePointsG()">+3</button>
+        </div>
+      </div>
+      <div></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+  <footer></footer>
+</html>
